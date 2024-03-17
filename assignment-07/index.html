@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> The Gastropod Press</title>
+    <!-- Define characterset used-->
+    <meta charset="UTF-8">
+    <!-- Define page description-->
+    <meta name="description" content="this is a page for The Gastropod Press">
+    <!-- Define information about author-->
+    <meta name="author" content="Dante Terrio">
+    <!-- other meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style elements for body and table-->
+    <style>
+        body {
+            background-color: rgb(30, 143, 37);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        table {
+            border: 1px solid black; 
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./images/the_gastropod_press-logo_new.png" width="250px" height="200px" alt="The Gastropod Press logo" title="The Gastropod Press logo">
+    <h1> Contact</h1>
+    <a href="mailto:tristan@thegastropodpress.com">send an email!</a>
+    <address>
+        The Gastropod Press <br />
+        126 East Broadway Suite B-9 <br />
+        Missoula, MT 59801 <br />
+        <br />
+    </address>
+    <p>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Mondays</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Tuesdays</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Wednesdays</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Thursdays</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Fridays</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Saturdays</td>
+                <td>10:00am - 5:00pm</td>
+            </tr>
+            <tr>
+                <td>Sundays</td>
+                <td>10:00am - 5:00pm</td>
+            </tr>     
+        </table>
+    </p>
+    <form method="post" action="index.html">
+        Name:<br />
+        <input type="text" id="name" placeholder="enter your name" autofocus>
+        <h2>How did you hear about us?:</h2>
+        <input type="checkbox" name="found-from" type="found-from" value="word-of-mouth">Word of mouth<br />
+        <input type="checkbox" name="found-from" type="found-from" value="ad">Instagram Ad<br />
+        <input type="checkbox" name="found-from" type="found-from" value="local">Local Business<br />
+        <input type="checkbox" name="found-from" type="found-from" value="other">other<br />
+        <pr></pr>
+        comments<br />
+        <textarea name="comments" id="comments" rows="10" col="30">any additional requests or questions</textarea>
+        <p></p>
+        Want to know what we're up to?
+        <form action="https://www.thegastropodpress.com" method="post">
+            <p>Subscribe to our e-mail list:</p>
+              <input type="text" name="email" />
+              <input type="submit" name="subscribe" value="Subscribe" />
+         </form>
+    </form> 
+</body>
