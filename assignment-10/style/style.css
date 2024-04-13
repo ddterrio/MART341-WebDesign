@@ -1,0 +1,32 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container{
+    border-style:inset;
+    border-width: 10px;
+    border-color: dimgrey;
+    padding: 10px;
+    background-color:slateblue;
+    width: 75%;
+    margin:auto;
+    text-align: center;
+}
+
+div.align{
+    text-align: center;
+}
+
+.secondary-container{
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+    border-bottom: 2px whitesmoke dotted;
+    border-spacing: inherit;
+}
+
+#mainheader{
+    color:floralwhite;
+    opacity: .80;
+    font-size: 60px;
+}
