@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.main-container{
+    border-style:inset;
+    border-width: 10px;
+    border-color:aquamarine;
+    padding: 10px;
+    background-color:lightgrey;
+    width: 75%;
+    margin:auto;
+    text-align: center;
+}
+
+#mainheader{
+    border-style:ridge;
+    border-width:8px;
+    border-color:mediumaquamarine solid;
+    border-bottom: 5px;
+}
+
+div{
+    margin: 30px;
+
+}
+
+#goodbye{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 800;
+}
+
+#goodbye:hover::after{
+    content: "I have learned to let go many times. I hope that I do not have to again.";
+    font-weight: 900;
+    color: mediumvioletred;
+    font-style: oblique;
+}
+
