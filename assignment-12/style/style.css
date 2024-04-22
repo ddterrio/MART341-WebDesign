@@ -9,6 +9,7 @@ body {
     margin-right: auto;
     text-align: center;
     border-radius: 15px;
+    padding-top: 32px;
  }
  .inner-box {
     width: 75%;
@@ -44,3 +45,23 @@ body {
    text-align: center;
    border-radius: 15px;
  }
+ header {
+   position: fixed;
+   top: 0px;
+   background-color:cornflowerblue;
+   margin-top: 0;
+   height: 4em;
+   width: 100%;
+   text-align:center;
+}
+.menu-item, .site-name {
+   display: inline-block;
+   margin: 1em .2em;
+   min-width: 6em;
+   text-align: center;
+   background-color:cornflowerblue;
+   padding: 0.5em 1em;
+}
+.menu-item:hover {
+   background-color:darksalmon;
+}
